@@ -32,3 +32,9 @@ D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\obj\Debug\net8.0\refint\W
 D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\obj\Debug\net8.0\WebsocketIntro.pdb
 D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\obj\Debug\net8.0\WebsocketIntro.genruntimeconfig.cache
 D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\obj\Debug\net8.0\ref\WebsocketIntro.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\System.Reactive.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Websocket.Boilerplate.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Websocket.Client.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\obj\Debug\net8.0\WebsocketIntro.sourcelink.json
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\JWT.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Newtonsoft.Json.dll

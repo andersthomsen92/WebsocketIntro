@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[1.2.0, )"
             },
+            "JWT": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.12, )"
@@ -56,6 +60,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "uldahlalex.websocket.boilerplate": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

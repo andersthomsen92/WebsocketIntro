@@ -6,7 +6,7 @@ const App = () => {
     const [ws, setWs] = useState<WebSocket | null>(null); 
 
     useEffect(() => {
-        const socket = new WebSocket("ws://localhost:8080");
+        const socket = new WebSocket("ws://localhost:8181");
 
         socket.onmessage = (message) => {
             setMessages((prevMessages) => [...prevMessages, message.data]);
