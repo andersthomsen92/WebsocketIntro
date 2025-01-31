@@ -1,23 +1,40 @@
-
 using System.Reflection;
 using Fleck;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using WebSocketBoilerplate;
 using WebsocketIntro;
-
+using WebsocketIntro.EventHandlers;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddOptionsWithValidateOnStart<AppOptions>()
-    .Bind(builder.Configuration.GetSection(nameof(AppOptions)));
+// Load configuration
+builder.Services.Configure<AppOptions>(builder.Configuration.GetSection(nameof(AppOptions)));
 
+// Register EF Core DbContext with PostgreSQL
+builder.Services.AddDbContext<ApplicationDbContext>((serviceProvider, options) =>
+{
+    var appOptions = serviceProvider.GetRequiredService<IOptions<AppOptions>>().Value;
+    options.UseNpgsql(appOptions.ConnectionString);
+});
+
+// Register services
 builder.Services.AddSingleton<ClientConnectionsState>();
 builder.Services.AddSingleton<SecurityService.SecurityService>();
 
+// Inject WebSocket event handlers
 builder.Services.InjectEventHandlers(Assembly.GetExecutingAssembly());
 
 var app = builder.Build();
 
 var logger = app.Services.GetRequiredService<ILogger<Program>>();
+
+// Run database migrations at startup
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    dbContext.Database.Migrate();
+}
 
 var server = new WebSocketServer("ws://0.0.0.0:8181");
 
@@ -42,6 +59,5 @@ server.Start(socket =>
         });
     };
 });
-
 
 app.Run();

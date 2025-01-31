@@ -38,3 +38,14 @@ D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Websocke
 D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\obj\Debug\net8.0\WebsocketIntro.sourcelink.json
 D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\JWT.dll
 D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Npgsql.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

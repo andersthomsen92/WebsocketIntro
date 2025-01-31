@@ -1,7 +1,7 @@
 ﻿using Fleck;
 using WebSocketBoilerplate;
 
-namespace WebsocketIntro;
+namespace WebsocketIntro.EventHandlers;
 
 public class ClientWantsToSendMessageToRoom : BaseDto
 {   

@@ -1,5 +1,6 @@
-﻿namespace WebsocketIntro;
-using Fleck;
+﻿using Fleck;
+
+namespace WebsocketIntro.EventHandlers;
 
 public class ClientConnectionsState
 {
