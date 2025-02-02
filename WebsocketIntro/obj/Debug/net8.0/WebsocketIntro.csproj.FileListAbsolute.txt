@@ -49,3 +49,6 @@ D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsof
 D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Npgsql.dll
 D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\FluentValidation.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Datamatiker\Fullstack\WebsocketIntro\WebsocketIntro\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

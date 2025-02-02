@@ -1,10 +1,13 @@
 using System.Reflection;
 using Fleck;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using WebSocketBoilerplate;
 using WebsocketIntro;
 using WebsocketIntro.EventHandlers;
+using FluentValidation.AspNetCore;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,8 +25,15 @@ builder.Services.AddDbContext<ApplicationDbContext>((serviceProvider, options) =
 builder.Services.AddSingleton<ClientConnectionsState>();
 builder.Services.AddSingleton<SecurityService.SecurityService>();
 
+
+
 // Inject WebSocket event handlers
 builder.Services.InjectEventHandlers(Assembly.GetExecutingAssembly());
+// Register FluentValidation validators in the container
+builder.Services.AddValidatorsFromAssemblyContaining<ClientWantsToCreateUserValidator>();
+
+
+
 
 var app = builder.Build();
 
